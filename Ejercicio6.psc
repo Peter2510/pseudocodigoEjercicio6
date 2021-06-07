@@ -6,14 +6,15 @@ Algoritmo Ejercicio6
 		leer edad
 		Si edad >= 25 Entonces
 			
-			mayoresigualesveinte = mayoresigualesveinte + 1
-			promMayoresigualesveinte = edad / mayoresigualesveinte
+			mayoresigualesveint = mayoresigualesveit + 1
+			promMayoresigualesveinte = edad / mayoresigualesveint
 			
 		SiNo
-			menoresveinte = menoresveinte + 1
-			promMenoresveinte = edad / menoresveinte
+			menoresveint = menoresveint + 1
+			promMenoresveint = edad / menoresveint
 			
 		Fin Si
+		
 	Fin Para
-	
+	Escribir " el promedio de edad de las personas menores a 25 es de ",promMenoresveint , " años , y el promedio de las personas con 25 años es de ", promMayoresigualesveinte, "años"
 FinAlgoritmo
