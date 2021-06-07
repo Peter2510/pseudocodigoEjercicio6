@@ -4,7 +4,7 @@ Algoritmo Ejercicio6
 		
 		Escribir "Ingresa la edad"
 		leer edad
-		Si edad > 25 Entonces
+		Si edad >= 25 Entonces
 			mayoresigualesveinte = mayoresigualesveinte + 1
 			promMayoresigualesveinte = edad / mayoresigualesveinte
 		SiNo
